@@ -258,3 +258,39 @@ ul {
 		text-align: center;
 		color: white;
 	}
+
+@media only screen and (max-width: 320px) {
+.menu-item .add-button {
+  left: 70px;
+}
+h2, .g-price {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.menu-item-dets {
+  margin-left: 150px;
+  padding-bottom: 15px;
+}
+.menu-item-heading {
+  font-size: 16px;
+  margin: 5px 0 2px;
+}
+}			
+@media only screen and (max-width: 330px) {
+.menu-item .add-button {
+  left: 70px;
+}
+h2, .g-price {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.menu-item-dets {
+  margin-left: 150px;
+  padding-bottom: 15px;
+}
+.menu-item-heading {
+  font-size: 16px;
+  margin: 5px 0 2px;
+}
+}			
+
