@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
+				<link type="text/css" rel="stylesheet" href="./assets/main.css" media="screen,projection"/> 
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<link rel="stylesheet" href="./assets/style.css" type="text/css">
+      <title>Acim | Fresh Fish Store</title>
+</head>
+<body class="white">
+			
+<!-- Top Navbar -->		
+<div class="navbar container-md">		
+  <nav class="z-depth-0 mynav white">
+    <div class="nav-wrapper">
+    	<ul id="nav-mobile" class="right show-on-med-and-down">
+        <li>
+ <div class="bubble-carts">
+ 	<a href="#modal2" class="modal-trigger bubble-cart">
+		<img src="./assets/img/tas.png" class="responsive-img"></img>
+		<span class="count total-count">0</span>
+	</a>
+	</div>        				
+        </li>
+      </ul>
+      <a class="brand-logo logo black-text center">Acim</a>
+    </div>
+  </nav>
+</div>
+<!-- /Top Navbar -->
+
+<!-- Main -->
+<div class="container" style="margin-bottom: 120px;">
+<h2>Produk</h2>
+    <ul class="menu-items">
+      <!--    Menu Item 1    -->
+      <li class="menu-item">
+        <img src="./assets/img/produk/ikanmas.png" alt="Ikan Mas Rame" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Ikan Mas Rame /KG</p>
+          <p class="g-price">Rp.35.000</p>
+        </div>
+        <button
+          class="add-button add-to-cart waves-effect"
+          data-name="Ikan-Mas-Rame"
+          data-price="35000">Pesan Sekarang</button>
+      </li>
+      <!--    Menu Item 2    -->
+      <li class="menu-item">
+        <img src="./assets/img/produk/super.png" alt="Ikan Mas Rame" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Ikan Mas Super /KG</p>
+          <p class="g-price">Rp.70.000</p>
+        </div>
+        <button
+          class="add-button add-to-cart waves-effect"
+          data-name="Ikan-Mas-Super"
+          data-price="70000">Pesan Sekarang</button>
+      </li>
+      <!--    Menu Item 3   -->
+      <li class="menu-item">
+        <img src="./assets/img/produk/ikanlele.png" alt="Ikan Mas Rame" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Ikan Lele /KG</p>
+          <p class="g-price">Rp.20.000</p>
+        </div>
+        <button
+          class="add-button add-to-cart waves-effect"
+          data-name="Lele" 
+          data-price="20000">Pesan Sekarang</button>
+      </li>
+      <!--    Menu Item 4   -->
+      <li class="menu-item">
+        <img src="./assets/img/produk/mujair.png" alt="Ikan Mas Rame" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">Ikan Mujair /KG</p>
+          <p class="g-price">Rp.40.000</p>
+        </div>
+        <button
+          class="add-button add-to-cart1 waves-effect"
+          data-name="Mujair" 
+          data-price="40000">Stok Kosong</button>
+      </li>
+     </ul>
+     <br/>
+     <p>Harga yang tertera adalah harga ikan per kilo, dan dapat sewaktu-waktu berubah tanpa pemberitahuan terlebih dahulu. Syarat dan ketentuan berlaku, <a href="/sk.html">baca selengkapnya disini</a>.</p>
+	
+</div>
+
+  <!-- Modal Cart -->
+  <div id="modal2" class="modal bottom-sheet styling-radius">
+    <div class="modal-content">
+  <div class="screen-cart">
+    <h2>Tas Saya</h2>  				
+    <!--  Cart Items -->
+    <ul class="show-cart cart-items">Tambahkan barang</ul>
+    <p class="cart-math-item">
+      <span class="cart-math-header">Total Harga:</span>
+      <span class="g-price total total-cart"></span>
+    </p>
+  </div>				
+    </div>
+    <div class="modal-footer grey lighten-2 center">
+      <button class="btn waves-effect red darken-4">Pesan Sekarang</button>
+    </div>
+  </div>
+
+  <!-- Modal Info Pembayaran -->
+  <div id="modal3" class="modal bottom-sheet styling-radius">
+    <div class="modal-content">
+<div class="row center">
+ 	<p><b>Metode Pengiriman & Pembayaran</b></p><br/>
+  <div class="col s4 center">
+   <img src="./assets/img/antar.png" alt="" width="24">
+   <p>Pesan Antar</p>
+  </div>
+  <div class="col s4 center">
+   <img src="./assets/img/ojol.png" alt="" width="24">
+   <p>Ojek Online</p>
+  </div>
+  <div class="col s4 center">
+   <img src="./assets/img/pickupatshop.png" alt="" width="24">
+   <p>Ambil Sendiri</p>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col s4 center">
+   <img src="./assets/img/cod.png" alt="" width="24">
+   <p>COD</p>
+  </div>
+  <div class="col s4 center">
+   <img src="./assets/img/gopay.png" alt="" width="24">
+   <p>Gopay</p>
+  </div>
+  <div class="col s4 center">
+   <img src="./assets/img/danalogo.png" alt="" width="34">
+   <p>Dana</p>
+  </div>
+ </div>
+
+<p><b>Informasi Lainnya</b></p><br/>
+
+       <div class="collection">
+        <a href="#!" class="collection-item waves-effect black-text">Manfaat Makan Ikan</a>
+        <a href="#!" class="collection-item waves-effect black-text">Artikel</a>
+        <a href="#!" class="collection-item waves-effect black-text">Syarat & Ketentuan</a>
+        <a href="#!" class="collection-item waves-effect black-text">Cara pesan</a>
+      </div>
+
+      <div class="card white darken-1">
+        <div class="card-content">
+          <span class="card-title">Lokasi</span>
+          <p>JL. SMP MABAD GG. DAMAI NO. 212B CEMPAKA PUTIH, CIPUTAT TIMUR - KOTA TANGERANG SELATAN - BANTEN.<br/> Telp. (021) 74781916</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+<div class="fixed-action-btn red darken-4 z-depth-2">
+  <a class="btn-floating btn-large red darken-4 waves-effect z-depth-0">
+    <i class="large material-icons">home</i>
+  </a>
+  <a class="btn-floating btn-large red waves-effect red darken-4 z-depth-0">
+    <i class="large material-icons">local_phone</i>
+  </a>
+  <a class="btn-floating btn-large red waves-effect red darken-4 z-depth-0">
+    <i class="large material-icons">whatsapp</i>
+  </a>
+  <a href="#modal3" class="btn-floating btn-large red waves-effect red darken-4 z-depth-0 modal-trigger">
+    <i class="large material-icons">more_vert</i>
+  </a>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="./assets/materialize.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./assets/script.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+$('.modal').modal(); 
+}); 
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+</script>
+</body>
+</html>
