@@ -1,0 +1,260 @@
+
+* { padding: 0px; margin: 0px; list-style: none; quotes: none; text-decoration: unset; outline: none; border: none; box-sizing: border-box; }
+.logo {
+ width: 180px;
+ height: 100px;
+}
+.nav-icons {
+ width: 40px;
+ height: 40px;
+ padding-top : 28px;
+}
+.tas-saya {
+ width: 80px;
+ height: 80px;
+}
+.mycart {
+  background-image: url('./img/tas.png');
+  background-position: center top center right;
+  background-repeat: no-repeat;
+  background-size: 38px 38px;	
+  color: black;	
+  font-weight: 600;
+  margin-right: 20px;
+  margin-top: 20px ;
+  width: 40px;
+  height: auto;
+  text-align: center;
+}
+
+.bold {
+	font-weight: 600;
+	color: #B71C1C;
+}
+.styling-radius {
+ border-top-left-radius: 30px! important;
+ border: 0px;
+}
+.modal.bottom-sheet {
+  max-height: 80%! important;
+}
+.total-count {
+ color: black;
+}
+.brand-logo {
+ font-weight: 800;
+}
+.fixed-action-btn {
+  position: fixed;
+  left: 10px! important;
+  right: 10px! important;
+  bottom: 23px;
+  padding-top: 0px;
+  margin-bottom: 0;
+  z-index: 997;
+  width: 95%;
+  border-radius: 50px! important;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+.mybadge2 {
+  position:absolute;
+  right:5.3%;
+  top:35%;
+  font-size:100%;
+  color: black;
+  text-align:center;
+  min-width:2em;
+  font-weight:bold;
+}
+.hide  {
+ display: none! important;
+}
+h2, .g-price {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.g-price {
+  margin: 8px 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.menu-item {
+  background: #E4F0FD;
+  border-radius: 20px 0 0 20px;
+  margin: 30px 0;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.menu-item:nth-child(2n) {
+  background: #ef9a9a;
+}
+.menu-item:nth-child(3n) {
+  background: #F7F7FE;
+}
+.menu-item:nth-child(4n) {
+  background: #E4FDF1;
+  color: black;
+}
+.menu-item img {
+  width: 150px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+.menu-item .add-button {
+  position: absolute;
+  border: none;
+  background: #B71C1C;
+  padding: 6px 20px 4px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  bottom: -10px;
+  left: 150px;
+  transition: all 0.3s;
+}
+.menu-item .add-button:hover {
+  background: #5815AE;
+}
+
+.menu-item-dets {
+  margin-left: 150px;
+  padding-bottom: 15px;
+}
+
+.menu-item-heading {
+  font-size: 18px;
+  margin: 10px 0 12px;
+}
+
+.screen-cart {
+  padding-right: 30px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #D7D7F9;
+  animation: fadeIn 0.3s;
+}
+.cart-item:last-child {
+  border-bottom: 5px solid #D7D7F9;
+}
+.cart-item img {
+  width: 65px;
+}
+.cart-item .g-price {
+  font-size: 24px;
+}
+
+.cart-item-dets {
+  margin-left: 15px;
+  width: 100%;
+}
+
+.cart-item-heading {
+  margin: 10px 0;
+}
+
+.cart-math-item {
+  margin: 5px 0;
+  font-weight: 700;
+}
+.cart-math-item span {
+  display: inline-block;
+  text-align: right;
+}
+.cart-math-item .cart-math-header {
+  width: 50%;
+}
+.cart-math-item .g-price {
+  width: 40%;
+}
+.mynav, .nav-wrapper {
+ height: 70px! important;
+ padding: 5px;
+}
+.brand-logo {
+ font-size: 40px! important;
+ font-weight: 700;
+}
+.navbar-fixed-bottom {
+  position: fixed;
+  height: 56px;
+  z-index: 997;
+  bottom: 0;
+  margin: 15px;
+  
+}
+
+.navbar-fixed-bottom nav {
+  position: fixed;
+  bottom: 0;
+  margin: 15px;
+  width: 85%;
+  border-radius: 50px;
+}
+
+@media only screen and (min-width: 601px) {
+  nav.nav-extended .nav-wrapper {
+    min-height: 64px;
+  }
+  nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 64px;
+    line-height: 64px;
+  }
+  .navbar-fixed-bottom {
+    height: 64px;
+  }
+}
+
+.bubble-cart{
+	font-size: 32px;
+	height: 36px;
+	width: 36px;
+	box-sizing: content-box;
+	padding: 10px;
+	line-height: 2px;
+	margin-right: 28px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.count{
+		position: absolute;
+		top: 18px;
+		right: 25px;
+		display: block;
+		height: 25px;
+		width: 25px;
+		background: #B71C1C;
+		font-size: 11px;
+		box-sizing: content-box;
+		padding: 2px;
+		line-height: 24px;
+		border-radius: 50%;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+	}
